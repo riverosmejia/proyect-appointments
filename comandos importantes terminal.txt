@@ -1,0 +1,16 @@
+Instalar ts de manera local: 
+        
+--->    npm install --save-dev typescript ts-node
+
+Instalar ts de manera global:
+
+--->    npm install -g typescript
+
+Dale a tu cuerpo alegría macarena:
+
+--->    que tu cuerpo es para darle alegría cosa buena.
+
+Pasar de ts a js:
+
+--->    npx tsc index.ts
+

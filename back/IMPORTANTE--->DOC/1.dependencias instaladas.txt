@@ -1,0 +1,43 @@
+---> npm init 
+
+    (iniciar el proyecto)
+
+---> npm install --save-dev typescript @types/express @types/node nodemon ts-node express
+
+    (instalar typescript de forma local, me han recomendado eso :p)
+
+--->npm install moment
+
+    se usa para manejar el tiempo en el proyecto, se puede ver en la interfaz I_appointment y en los servicios
+    del appointment.
+
+--->npm install -D <dependencia>
+
+    (morgan,express,nodemon,tso-node)
+
+    además de esas hay otras dos, pero se instalaron solas cuando
+    lo instalé typescript de forma local, revisar por favor que estén
+
+    (@types/express,@types/node)
+
+---> npm install eslint --save-dev
+
+    este isntala ESlint, además de instalarlo se configuraron varios scripts en
+    el package.json, que son:
+
+        "lint": "eslint . --ext .ts",
+        "build": "tsc",
+        "start": "nodemon"
+
+        npm run build: compila el proyecto.
+
+        npm start: ejecuta el proyecto.
+
+        npm run mario: SUPERMARIOBROTHERS WAHOOOOO!
+
+---> npm install -D dotenv
+
+    este instala dotenv, librería que permite usar variables de entorno,
+    para que no tengamos que poner por ejemplo las credenciales de la
+    base de datos en el código y subamos las mismas a un github , que
+    es un lugar público.
