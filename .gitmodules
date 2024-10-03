@@ -1,0 +1,3 @@
+[submodule "pr_typescript"]
+	path = pr_typescript
+	url = git@github.com:riverosmejia/pr_typescript.git
